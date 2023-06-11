@@ -1,0 +1,48 @@
+body,
+html {
+	width: 100%;
+	height: 100%;
+	font-family: "Lobster_Two variant0";
+    background: url(Header.jpg) no-repeat center center fixed; 
+   -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+
+}
+h1 {
+	font-size: 3rem;
+	color: ghostwhite;
+}
+
+.btn {
+	font-weight: 700;
+	border-radius: 300px;
+	text-transform: uppercase;
+	border-color: #DD7D36;
+}
+.btn-primary {
+	background-color: #DD7D36;
+	color: ghostwhite;
+}
+.btn-primary:hover {
+	background-color: #DD7D36;
+	border-color: #DD7D36;
+	border-width: 4px;
+	color: Black;
+}
+
+.btn-xl {
+	padding: 1rem 2rem;
+}
+hr {
+    margin: 20px auto;
+    color: #DD7D36
+    border: 3px solid;
+    border-color: #DD7D36;
+    max-width: 65px;
+    opacity: 1;  
+}
+.buffer {
+	height: 50px;
+}
